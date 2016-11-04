@@ -1,23 +1,28 @@
 * {
 	text-align: center;
-	font-family: sans-serif;
+	font-family: cardo;
 	font-size: 16px;
 	font: gray;
+	box-sizing: border-box;
 }
 
 
 body {
-	background-color: #777
+	background-color: #777;
+	width: 960px;
+	margin: 0px auto;
 }
 
-.header{
+
+header{
 	width: 100%;
 	background: #eee;
 	padding: 30px;
 	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
-.nav {
+nav {
 	padding: 30px;
 	background: #eee;
 	width: 100%;
@@ -25,27 +30,41 @@ body {
 
 }
 
-.section {
+section {
 	background: #eee;
-	width: 50%;
-	padding: 30px;
-	margin-right: 10px;
+	float: left;
+	width: 500px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	height: 200px;
+	overflow: auto;
+	border: 2px solid black;
 	
 }
 
-.aside {
+aside {
 	background: #eee;
-	width: 50%;
-	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	padding: 30px;
 	padding-bottom: 75px;
+	margin-top: 10px;
+	float: right;
+	width: 400px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	height: 200px;
 
 }
 
-.article {
+article {
 	background-color: #777;
 	padding: 30px;
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 90%;
+	overflow: auto;
+	margin: 0 auto;
+	height: 150px;
 
 }
 
@@ -54,11 +73,20 @@ body {
 	padding: 20px;
 	margin-bottom: 10px;
 	margin-top: 15px;
+	width: 95%;
+	height: 25px;
+	margin: auto;
+
 }
 
 #paragraph {
 	background: #eee;
 	padding: 20px;
+	width: 95%;
+	height: 25px;
+	margin: auto;
+	margin-top: 5px;
+
 }
 
 footer {
@@ -66,5 +94,7 @@ footer {
 	clear: both;
 	background: #eee;
 	padding: 30px;
+	margin-top: 20px;
+	border: 1px solid black;
 }
 
